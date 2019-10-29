@@ -79,7 +79,7 @@ export default class Registre extends Component {
   componentDidMount() {
     this.setState({ Produto: this.props.navigation.getParam("Produto") });
     this.setState({ Id: this.props.navigation.getParam("id") });
-    this.setState({ Nome: this.props.navigation.getParam("Produto") });
+    this.setState({ ProdutoAntes: this.props.navigation.getParam("Produto") });
   }
 
   render() {

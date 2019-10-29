@@ -19,7 +19,7 @@ function Item({ item }) {
       <Text style={styles.itens}>ID: {item.Produto.Id}</Text>
 
       <Text style={styles.itens}>
-        MODIFICADO: {item.Data} ás {item.Hora} Horas
+        MODIFICADO: {item.Data} às {item.Hora} Horas
       </Text>
     </View>
   );

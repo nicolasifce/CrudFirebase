@@ -47,7 +47,7 @@ function Item({ item, navigation }) {
         </Text>
       </View>
       <Text style={styles.dados}>
-        Criado: {item.Produto.Criado.Data} ás {item.Produto.Criado.Hora} Horas
+        Criado: {item.Produto.Criado.Data} às {item.Produto.Criado.Hora} Horas
       </Text>
     </TouchableOpacity>
   );
